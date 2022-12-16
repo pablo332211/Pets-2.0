@@ -3,7 +3,6 @@ include "../../../Conexion/conexion.php";
 include "../../../Modelo/modelo_Propietario.php";
 include "../../../Modelo/modelo_Mascota.php";
 include "../../../Modelo/modelo_HistoriaClinica.php";
-
 ?>
  <?php 
     $DocM=$_GET['DocM'];

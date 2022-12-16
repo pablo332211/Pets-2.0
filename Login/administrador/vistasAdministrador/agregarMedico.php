@@ -44,47 +44,23 @@ if ($_POST) {
             <div class="full-box dashboard-sideBar-UserInfo">
                 <figure class="full-box">
                     <img src="../../../Vista/assets/avatars/AdminMaleAvatar.png" alt="UserIcon">
-                    <figcaption class="text-center text-titles">ADMINISTRAOR</figcaption>
+                    <figcaption class="text-center text-titles">REGISTRO</figcaption>
                 </figure>
-                <ul class="full-box list-unstyled text-center">
-                    <li>
-                        <a href="" title="Mis datos">
-                            <i class="zmdi zmdi-account-circle"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" title="Mi cuenta">
-                            <i class="zmdi zmdi-settings"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!" title="Salir del sistema" class="btn-exit-system">
-                            <i class="zmdi zmdi-power"></i>
-                        </a>
-                    </li>
-                </ul>
+                
             </div>
 
             <!--  Menu GENERAL -->
 
             <ul class="list-unstyled full-box dashboard-sideBar-Menu">
                 <li>
-                    <a href="administradorDesk.php">
-                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Dashboard
+                    <a href="../../../Login/logginMedicos/login.php">
+                    <i class="zmdi zmdi-account-circle"></i> Iniciar Sesion
                     </a>
                 </li>
                 <li>
-                    <a href="#!" class="btn-sideBar-SubMenu">
-                        <i class="zmdi zmdi-case zmdi-hc-fw"></i> Administración <i class="zmdi zmdi-caret-down pull-right"></i>
+                <a href="../../../Index.php">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Volver a Inicio
                     </a>
-                    <ul class="list-unstyled full-box">
-                        <li>
-                            <a href="../../../Index.php"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> Ver sitio web</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="zmdi zmdi-labels zmdi-hc-fw"></i>Ver plataforma</a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
@@ -110,29 +86,14 @@ if ($_POST) {
         <!-- CONTIENE PAGINA DE MEDICOS GENERAL -->
         <div class="container-fluid">
             <div class="page-header">
-                <h1 class="text-titles"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Usuario <small>MEDICO</small></h1>
+                <h1 class="text-titles"><i class="zmdi zmdi-account zmdi-hc-fw"></i>REGISTRAR NUEVO USUARIO <small>MEDICO</small></h1>
             </div>
 
-        </div>
-        <div class="container-fluid">
-            <ul class="breadcrumb breadcrumb-tabs">
-                <li>
-                    <a href="#!" class="btn btn-info">
-                        <i class="zmdi zmdi-plus"></i> &nbsp; AGREGAR MEDICO
-                    </a>
-                </li>
-                <li>
-                    <a href="../vistasAdministrador/medicoBuscar.php" class="btn btn-primary">
-                        <i class="zmdi zmdi-search"></i> &nbsp; BUSCAR MEDICOS
-                    </a>
-                </li>
-            </ul>
-        </div>
 
         <div class="container-fluid">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    <h3 class="panel-title"><i class="zmdi zmdi-plus"></i> &nbsp; NUEVO MEDICO</h3>
+                    <h3 class="panel-title"><i class="zmdi zmdi-plus"></i> &nbsp; INGRESA TUS DATOS</h3>
                 </div>
                 <div class="panel-body">
                     <form action="" id="medico" method="POST">
@@ -198,7 +159,7 @@ if ($_POST) {
                                     <div class="col-xs-12 col-sm-6">
                                         <div class="form-group label-floating">
                                             <label class="control-label">Contraseña</label>
-                                            <input  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,20}" class="form-control" type="password" name="Contrasena_Medico" id="Contrasena_Medico" required maxlength="20">
+                                            <input pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,20}" class="form-control" type="text" name="Contrasena_Medico" id="Contrasena_Medico" required maxlength="20">
                                         </div>
                                     </div>
 
@@ -210,12 +171,7 @@ if ($_POST) {
                         <!--boton para subir informacion-->
 
                         <p class="text-center" style="margin-top: 20px;">
-                            <button type="submit" class="btn btn-info btn-raised btn-sm" name="agregarMedico"><i class="zmdi zmdi-floppy"></i> Agregar</button>
-                        </p>
-
-                        <p class="text-center" style="margin-top: 20px;">
-                            <a href="administradorDesk.php">
-                                <button type="button" class="btn btn-info btn-raised btn-sm" name="volver"><i class="zmdi zmdi-floppy"></i> Inicio</button></a>
+                            <button type="submit" class="btn btn-success btn-raised btn-sm" name="agregarMedico">REGISTRARSE</button>
                         </p>
                     </form>
                 </div>

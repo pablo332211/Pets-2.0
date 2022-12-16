@@ -27,7 +27,7 @@
                 <a href="../../Vista/desk.php">
                     <button type="submit" class="btn btn-info btn-raised btn-sm" name="validar" id="validar"><i class="zmdi zmdi-floppy"></i> Ingrsar</button></a>
             </p>
-            <p class="text-center text-muted"><a href="" class="text-center register" title="Registrate"><br>¿No tienes una cuenta? <br> CONTACTANOS</a>
+            <p class="text-center text-muted"><a href="../administrador/vistasAdministrador/agregarMedico.php" class="text-center register" title="Registrate"><br>¿No tienes una cuenta? <br> Registrate AQUI</a>
                 <br>
                 <br>
                 <a href="../../Index.php" title="Inicio"><i class="zmdi zmdi-home zmdi-hc-2x"></i></a>

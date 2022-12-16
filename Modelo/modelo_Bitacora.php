@@ -1,5 +1,6 @@
 <?php
     include "C:/wamp64/www/Pets-SENA-master/Controlador/controlador_Bitacora.php";
+    
    
 
     $obj = new Bitacora;

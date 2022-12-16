@@ -3,10 +3,10 @@ include "../../../Conexion/conexion.php";
 ?>
 
 <?php
-$DocM=$_GET['DocM'];
+$DocM= $_GET['DocM'];
     $clas= new Conexion;
     $conecta= $clas->conectarServidor();
-    $query ="SELECT * FROM medico WHERE Documento_Medico= '$DocM'";
+    $query ="SELECT * FROM medico WHERE Documento_Medico = '$DocM'";
     $resultado = mysqli_query($conecta,$query);
     $arreglo = mysqli_fetch_row($resultado);
     $obj->Documento_Medico = $arreglo[0];

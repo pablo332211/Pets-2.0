@@ -1,5 +1,5 @@
 <?php 
-    include "C:/wamp64/www/Pets-SENA-master/Pets-SENA/Controlador/controlador_FormulaMedica.php";
+    include "C:/wamp64/www/Pets-SENA-master/Controlador/controlador_FormulaMedica.php";
 
     $obj = new Formula_Medica();
 

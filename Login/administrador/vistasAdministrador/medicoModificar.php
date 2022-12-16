@@ -1,6 +1,6 @@
 <?php 
 include "../../../Conexion/conexion.php";
-include "../modelo/Modelo_Medico.php";
+include "../../../Login/administrador/modelo/modelo/Modelo_Medico.php";
 ?>
 <?php
 $obj = new medico();
@@ -170,7 +170,7 @@ $obj->Contrasena_Medico = $arreglo[8];
 
                                     <div class="form-group label-floating">
                                         <label class="control-label">Numero DNI*</label>
-                                        <input readonly pattern="[0-9-]{1,30}" class="form-control" type="number" name="Documento_Medico" id="Documento_Medico" value="<?php echo $obj->Documento_Medico; ?>" maxlength="30">
+                                        <input pattern="[0-9-]{1,30}" class="form-control" type="number" name="Documento_Medico" id="Documento_Medico" value="<?php echo $obj->Documento_Medico; ?>" maxlength="30">
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6">

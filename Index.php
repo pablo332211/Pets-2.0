@@ -29,6 +29,13 @@
                         <span>BIENVENIDOS</span>
                     </h1>
                     <p>SOFTWARE VETERINARIO.</p>
+
+                    <p>
+                    
+                   Administra tu veterinaria gratuitamente.
+                   
+
+                    </p>
                     <a href="#about-us">
                         <div class="read-more">Ver mas</div>
                     </a>
@@ -68,7 +75,6 @@
                 <ul id="menu">
                     <li><a href="#home">INICIO</a></li>
                     <li><a href="#about-us">USUARIOS</a></li>
-                    <li><a href="#portfolio">SERVICIOS </a></li>
                     <li><a href="#contact">CONTACTENOS</a></li>
                 </ul>
             </div>
@@ -78,149 +84,27 @@
         <!-- section about us -->
         <section class=" about-us text-center text-muted " id="about-us">
             <h1>USUARIOS</h1>
-            <div class="column-one">
+
+            <div style="padding-left: 180px;" class="column-one">
                 <a href="./Login/logginMedicos/login.php">
                     <div class="circle-one"></div>
                 </a>
-                <h2><br />MEDICOS</h2>
+                <h2><br />Iniciar Sesion</h2>
             </div>
+
             <div class="column-two">
-                <a href="Login/">
+                <a href="./Login/administrador/vistasAdministrador/agregarMedico.php">
                     <div class="circle-two"></div>
                 </a>
-                <a href="#">
-                    <h2><br>CLIENTES</h2>
-                </a>
-            </div>
-            <div class="column-two">
-                <a href="Login/">
-                    <div class="circle-two"></div>
-                </a>
-                <a href="#">
-                    <h2><br>Proximamente</h2>
-                </a>
+                <h2><br />Registrarse</h2>
             </div>
         </section>
 
         <div class="clear"></div>
 
         <!-- portoflio-->
-        <section class="portfolio" id="portfolio">
-            <div class="portfolio-margin">
-                <h1>SERVICIOS</h1>
-                <!-- 1 item portoflio-->
-                <ul class="grid">
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/1.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 1</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 2 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/2.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 2</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 3 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/3.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 3</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 4 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/4.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 4</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 5 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/5.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 5</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 6 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/6.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 6</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 7 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/7.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 7</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 8 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/8.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 8</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- 9 item portoflio-->
-                    <li>
-                        <a href="#">
-                            <img src="Vista/Index/img/portfolio/9.jpg" alt="Portfolio item" />
-                            <div class="text">
-                                <p>PORTFOLIO 9</p>
-                                <p class="description">Your text here...</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <a href="#">
-                    <div class="read-more">Regresar</div>
-                </a>
-            </div>
-        </section>
-
+        
         <div class="clear"></div>
-
-        <!-- partners-->
-        <section class="partners parallax-background-partners" id="partners">
-            <div class="opacity"></div>
-            <div class="content">
-                <h2>Nuestras redes</h2>
-                <div class="logo">
-                    <a href="#"><img src="Vista/Index/img/logos/alex1.png"></a>
-                    <a href="#"><img src="Vista/Index/img/logos/archiq.png"></a>
-                    <a href="#"><img src="Vista/Index/img/logos/thomsoon.png"></a>
-                    <a href="#"><img src="Vista/Index/img/logos/alex2.png"></a>
-                </div>
-            </div>
-        </section>
 
         <!-- Contact-->
         <section class="contact" id="contact">

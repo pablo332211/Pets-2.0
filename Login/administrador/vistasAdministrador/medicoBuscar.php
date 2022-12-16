@@ -28,7 +28,7 @@ $total_paginas = ceil($total_registro / $pag);
 <?php
 $clas = new conexion();
 $conecta = $clas->conectarServidor();
-$query = "SELECT * FROM medico WHERE FK_CodigoRoles = 2 LIMIT $desde,$pag";
+$query = "SELECT * FROM medico WHERE Documento_Medico LIMIT $desde,$pag";
 $resultado = mysqli_query($conecta, $query);
 $arreglo = mysqli_fetch_row($resultado);
 ?>
@@ -223,8 +223,6 @@ if ($_POST) {
                                                 </tr>
                                         </thead>
                                         <?php
-
-if ($arreglo > 0) {
                                         do {
 
                                         ?>
@@ -270,11 +268,6 @@ if ($arreglo > 0) {
                                             <?php
 
                                         } while ($arreglo = mysqli_fetch_row($resultado));
-
-                                    } else {
-                                        echo "No existen Registros";
-                                    }
-
                                             ?>
 
                                             </tbody>

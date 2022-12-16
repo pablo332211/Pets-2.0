@@ -22,9 +22,9 @@ class medico
     if (mysqli_fetch_array($resultado)) {
       echo "<script> alert('El documento ya existe en el sistema')</script>";
     } else {
-      $insertar = "INSERT INTO medico VALUES('$this->Documento_Medico','$this->NombreA_Medico','$this->NombreB_Medico','$this->ApellidoA_Medico','$this->ApellidoB_Medico','$this->Correo_Medico','$this->Telefono_Medico','$this->Celular_Medico','$this->Contrasena_Medico','2' )";
+      $insertar = "INSERT INTO medico VALUES('$this->Documento_Medico','$this->NombreA_Medico','$this->NombreB_Medico','$this->ApellidoA_Medico','$this->ApellidoB_Medico','$this->Correo_Medico','$this->Telefono_Medico','$this->Celular_Medico','$this->Contrasena_Medico')";
       mysqli_query($conecta, $insertar);
-      echo "<script> alert ('Los datos han sido ingresados')</script>";
+      echo "<script> alert ('Registro Exitoso Por favor inicie sesion')</script>";
     }
   }
 
@@ -48,7 +48,7 @@ class medico
                                      WHERE Documento_Medico = '$this->Documento_Medico';";
                                      echo $modificar;
       mysqli_query($conecta, $modificar);
-      echo "<script> alert ('los datos fueron modificados')</script>";
+      echo "<script> alert ('Registro Exitoso')</script>";
     }
   }
 

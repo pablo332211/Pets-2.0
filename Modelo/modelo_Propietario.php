@@ -1,6 +1,7 @@
 <?php 
     include "C:/wamp64/www/Pets-SENA-master/Controlador/controlador_Propietario.php";
 
+
 //--------------------- MODELO USUARIO PARA AGREGAR USUARIO-------------------------------
     $obj = new Propietario();
 

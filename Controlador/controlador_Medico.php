@@ -35,7 +35,7 @@ class Medico{
                 //echo $insertar;            
                 mysqli_query($conecta,$insertar);
                 echo"<script>
-                    alert('El Medico a sido registrado exitosamente')
+                    alert('Registro Exitoso')
                 </script>";
             }
         }

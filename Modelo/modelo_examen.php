@@ -1,5 +1,5 @@
 <?php
-    include "C:/wamp64/www/Pets-SENA-master/Pets-SENA/Controlador/controlador_examen.php";
+    include "C:/wamp64/www/Pets-SENA-master/Controlador/Controlador/controlador_examen.php";
 
     $obj = new examen();
 
